@@ -15,7 +15,7 @@ index ab98ac14e..c32fc13ba 100644
  			  safe_strerror(errno));
  
 -	zlog_info("Vty connection from %pSU", &su);
-+	zlog_debug("Vty connection from %pSU", &su);
++	zlog_debug("Vty  connection from %pSU", &su);
  
  	vty_create(vty_sock, &su);
  }
